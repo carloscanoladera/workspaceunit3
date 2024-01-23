@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_BjFooIPYEe6WCKlCIlSi_g">
+  <modelElement href="model.uml#_EYz4kIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_F_gwoIPYEe6WCKlCIlSi_g" targetItem="_F_p6kIPYEe6WCKlCIlSi_g" sourceItem="_F_figIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GAr1UIPYEe6WCKlCIlSi_g" targetItem="_GAtDcIPYEe6WCKlCIlSi_g" sourceItem="_GArOQIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GAzKEIPYEe6WCKlCIlSi_g" sourceAnchor="163.0,0.0" targetAnchor="63.0,145.0" superClass="_GAtDcIPYEe6WCKlCIlSi_g" subClass="_GA20cIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ecv9YYPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyHYYIPZEe6WCKlCIlSi_g" sourceY="-30" targetX="544" targetY="128"/>
+    <bendpoints xmi:id="_FyHYYYPZEe6WCKlCIlSi_g" sourceX="-544" sourceY="-37" targetY="121"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GAzKEoPYEe6WCKlCIlSi_g" targetItem="_GA20cIPYEe6WCKlCIlSi_g" sourceItem="_GAzKEYPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GBIhQYPYEe6WCKlCIlSi_g" targetItem="_GBK9gIPYEe6WCKlCIlSi_g" sourceItem="_GBIhQIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GBQdEIPYEe6WCKlCIlSi_g" targetItem="_GBTgYIPYEe6WCKlCIlSi_g" sourceItem="_GBP2AIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GBZnAIPYEe6WCKlCIlSi_g" sourceAnchor="72.0,0.0" targetAnchor="63.0,145.0" superClass="_GAtDcIPYEe6WCKlCIlSi_g" subClass="_GBcqUIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EczAsIPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyHYYoPZEe6WCKlCIlSi_g" sourceY="-32" targetX="228" targetY="128"/>
+    <bendpoints xmi:id="_FyHYY4PZEe6WCKlCIlSi_g" sourceX="-228" sourceY="-39" targetY="121"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GBZnAoPYEe6WCKlCIlSi_g" targetItem="_GBcqUIPYEe6WCKlCIlSi_g" sourceItem="_GBZnAYPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GBiJ4IPYEe6WCKlCIlSi_g" sourceAnchor="129.0,0.0" targetAnchor="64.0,175.0" superClass="_GBK9gIPYEe6WCKlCIlSi_g" subClass="_GBlNMIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ec0O0IPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyH_cIPZEe6WCKlCIlSi_g" sourceY="-30" targetX="128" targetY="68"/>
+    <bendpoints xmi:id="_FyH_cYPZEe6WCKlCIlSi_g" sourceX="-128" sourceY="-36" targetY="62"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GBiw8YPYEe6WCKlCIlSi_g" targetItem="_GBlNMIPYEe6WCKlCIlSi_g" sourceItem="_GBiw8IPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GBr64IPYEe6WCKlCIlSi_g" sourceAnchor="76.0,0.0" targetAnchor="64.0,175.0" superClass="_GBK9gIPYEe6WCKlCIlSi_g" subClass="_GBvlQIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ec014IPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyH_coPZEe6WCKlCIlSi_g" sourceY="-41" targetX="-236" targetY="69"/>
+    <bendpoints xmi:id="_FyH_c4PZEe6WCKlCIlSi_g" sourceX="236" sourceY="-48" targetY="62"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GBsh8YPYEe6WCKlCIlSi_g" targetItem="_GBvlQIPYEe6WCKlCIlSi_g" sourceItem="_GBsh8IPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GBsh8oPYEe6WCKlCIlSi_g" sourceAnchor="123.0,0.0" targetAnchor="76.0,166.0" superClass="_GBvlQIPYEe6WCKlCIlSi_g" subClass="_F_p6kIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EcuvQIPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyH_dIPZEe6WCKlCIlSi_g" sourceY="-40" targetX="300" targetY="90"/>
+    <bendpoints xmi:id="_FyH_dYPZEe6WCKlCIlSi_g" sourceX="-299" sourceY="-49" targetX="1" targetY="81"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GBtJAIPYEe6WCKlCIlSi_g" sourceAnchor="158.0,0.0" targetAnchor="76.0,166.0" superClass="_GBvlQIPYEe6WCKlCIlSi_g" subClass="_GBTgYIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EcyZoIPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyHYZIPZEe6WCKlCIlSi_g" sourceY="-30" targetX="-64" targetY="89"/>
+    <bendpoints xmi:id="_FyHYZYPZEe6WCKlCIlSi_g" sourceX="65" sourceY="-38" targetX="1" targetY="81"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GB0dwIPYEe6WCKlCIlSi_g" targetItem="_GB2S8IPYEe6WCKlCIlSi_g" sourceItem="_GBz2sIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GB-OwIPYEe6WCKlCIlSi_g" sourceAnchor="64.0,0.0" targetAnchor="64.0,267.0" superClass="_GB2S8IPYEe6WCKlCIlSi_g" subClass="_GCB5IIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ec2EAIPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyH_eoPZEe6WCKlCIlSi_g" sourceY="-13" targetX="-184" targetY="14"/>
+    <bendpoints xmi:id="_FyH_e4PZEe6WCKlCIlSi_g" sourceX="184" sourceY="-16" targetY="11"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GB-OwoPYEe6WCKlCIlSi_g" targetItem="_GCB5IIPYEe6WCKlCIlSi_g" sourceItem="_GB-OwYPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GB-Ow4PYEe6WCKlCIlSi_g" sourceAnchor="63.0,0.0" targetAnchor="64.0,198.0" superClass="_GCB5IIPYEe6WCKlCIlSi_g" subClass="_GAtDcIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ecv9YIPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyH_doPZEe6WCKlCIlSi_g" sourceY="-30" targetX="332" targetY="48"/>
+    <bendpoints xmi:id="_FyH_d4PZEe6WCKlCIlSi_g" sourceX="-332" sourceY="-36" targetY="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GB-10IPYEe6WCKlCIlSi_g" sourceAnchor="68.0,0.0" targetAnchor="64.0,198.0" superClass="_GCB5IIPYEe6WCKlCIlSi_g" subClass="_GBK9gIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EcwkcIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_FrbhkIPZEe6WCKlCIlSi_g" position="-2656.0,-366.0"/>
+    <bendpoints xmi:id="_FyH_fIPZEe6WCKlCIlSi_g" sourceY="-64" targetX="-124" targetY="48"/>
+    <bendpoints xmi:id="_FyImgIPZEe6WCKlCIlSi_g" sourceX="124" sourceY="-70" targetY="42"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GCGxoIPYEe6WCKlCIlSi_g" sourceAnchor="62.0,0.0" targetAnchor="64.0,267.0" superClass="_GB2S8IPYEe6WCKlCIlSi_g" subClass="_GCJ08IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ec5HUIPYEe6WCKlCIlSi_g"/>
+    <bendpoints xmi:id="_FyH_eIPZEe6WCKlCIlSi_g" sourceY="-13" targetX="484" targetY="14"/>
+    <bendpoints xmi:id="_FyH_eYPZEe6WCKlCIlSi_g" sourceX="-484" sourceY="-16" targetY="11"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_GCUNAIPYEe6WCKlCIlSi_g" sourceAnchor="37.0,0.0" targetAnchor="63.0,176.0" superClass="_GCJ08IPYEe6WCKlCIlSi_g" subClass="_GCWpQIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ec5uYIPYEe6WCKlCIlSi_g"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GCU0EIPYEe6WCKlCIlSi_g" targetItem="_GCWpQIPYEe6WCKlCIlSi_g" sourceItem="_GCUNAYPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_GCa6sYPYEe6WCKlCIlSi_g" targetItem="_GCcI0IPYEe6WCKlCIlSi_g" sourceItem="_GCa6sIPYEe6WCKlCIlSi_g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ms-P4IPZEe6WCKlCIlSi_g" targetItem="_GCJ08IPYEe6WCKlCIlSi_g" sourceItem="_ms9o0IPZEe6WCKlCIlSi_g"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_F_figIPYEe6WCKlCIlSi_g" sourceConnectionVisual="_F_gwoIPYEe6WCKlCIlSi_g" text="Esta clase denominada CasaIndependiente modela un tipo específico de casa&#xD;&#xA;urbana que no está en conjunto cerrado y es completamente independiente de&#xD;&#xA;otras casas. Tiene un atributo estático para especificar un valor del área&#xD;&#xA;del inmueble.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_F_p6kIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdinkIPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GArOQIPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GAr1UIPYEe6WCKlCIlSi_g" text="Esta clase denominada Apartamento modela un tipo de inmueble específico&#xD;&#xA;destinado para la vivienda.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GAtDcIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdinkYPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GAzKEYPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GAzKEoPYEe6WCKlCIlSi_g" text="Esta clase denominada ApartamentoFamiliar modela un tipo&#xD;&#xA;&#x9;&#x9;* específico de apartamento con atributos como el valor por área y el&#xD;&#xA;&#x9;&#x9;* valor de la administración.&#xD;&#xA;&#x9;&#x9;* @version 1.2/2020" item="_GA20cIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOoIPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GBIhQIPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GBIhQYPYEe6WCKlCIlSi_g" text="Esta clase denominada Casa modela un tipo específico de inmueble destinado&#xD;&#xA;para la vivienda con atributos como el número de pisos que tiene una casa.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GBK9gIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOoYPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GBP2AIPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GBQdEIPYEe6WCKlCIlSi_g" text="Esta clase denominada CasaConjuntoCerrado modela un tipo específico de casa&#xD;&#xA;urbana que se encuentra en un conjunto cerrado con atributos como el valor&#xD;&#xA;por área, valor de la administración y valores booleanos para especificar si&#xD;&#xA;tiene piscina y campos deportivos.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GBTgYIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOooPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GBZnAYPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GBZnAoPYEe6WCKlCIlSi_g" text="Esta clase denominada Apartaestudio modela un tipo específico de apartamento&#xD;&#xA;que tiene una sola habitación.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GBcqUIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOo4PYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GBiw8IPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GBiw8YPYEe6WCKlCIlSi_g" text="Esta clase denominada CasaRural modela un tipo específico de casa ubicada en&#xD;&#xA;el sector rural&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GBlNMIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOpIPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GBsh8IPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GBsh8YPYEe6WCKlCIlSi_g" text="Esta clase denominada CasaUrbana modela un tipo específico de casa destinada&#xD;&#xA;para la vivienda localizada en el sector urbano.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GBvlQIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOpYPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GBz2sIPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GB0dwIPYEe6WCKlCIlSi_g" text="Esta clase denominada Inmueble modela un inmueble que posee como atributos un&#xD;&#xA;identificador, un área, una dirección y un precio de venta. Es la clase raíz&#xD;&#xA;de una jerarquía de herencia.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GB2S8IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOpoPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GB-OwYPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GB-OwoPYEe6WCKlCIlSi_g" text="Esta clase denominada InmuebleVivienda modela un inmueble destinado para la&#xD;&#xA;vivienda con atributos como el número de habitaciones y el número de baños&#xD;&#xA;que posee&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GCB5IIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EdjOp4PYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GCUNAYPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GCU0EIPYEe6WCKlCIlSi_g" text="Esta clase denominada LocalComercial modela un tipo específico de Local&#xD;&#xA;destinado para un uso comercial con atributos como el valor por área y el&#xD;&#xA;centro comercial al cual pertenece.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GCWpQIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Edj1sYPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_GCa6sIPYEe6WCKlCIlSi_g" sourceConnectionVisual="_GCa6sYPYEe6WCKlCIlSi_g" text="Esta clase prueba diferentes inmuebles, se calcula su precio de acuerdo al&#xD;&#xA;área y se muestran sus datos en pantalla&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GCcI0IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Edj1soPYEe6WCKlCIlSi_g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_GCOtcIPYEe6WCKlCIlSi_g" name="tipo">
+    <modelElement href="model.uml#_EbBfEIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GCOtcYPYEe6WCKlCIlSi_g" position="-460.0,-181.0" size="128.0,167.0"/>
+    <stereotypes xmi:id="_GCOtcoPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+      <modelElement href="model.uml#_EbCtMIPYEe6WCKlCIlSi_g"/>
+    </stereotypes>
+    <visibility xmi:id="_GCOtc4PYEe6WCKlCIlSi_g" label="~"/>
+    <literals xmi:id="_GCOtdIPYEe6WCKlCIlSi_g" name="INTERNO">
+      <modelElement href="model.uml#_EbD7UIPYEe6WCKlCIlSi_g"/>
+    </literals>
+    <literals xmi:id="_GCOtdYPYEe6WCKlCIlSi_g" name="CALLE">
+      <modelElement href="model.uml#_EbEiYIPYEe6WCKlCIlSi_g"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GCcI0IPYEe6WCKlCIlSi_g" comments="_GCa6sIPYEe6WCKlCIlSi_g" targetConnectionVisual="_GCa6sYPYEe6WCKlCIlSi_g" name="MainInmuebles">
+    <modelElement href="model.uml#_EbL3IIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GCcI0YPYEe6WCKlCIlSi_g" position="-758.0,-183.0" size="128.0,122.0"/>
+    <visibility xmi:id="_GCcI0oPYEe6WCKlCIlSi_g" label="+"/>
+    <operations xmi:id="_GCcI04PYEe6WCKlCIlSi_g" name="main" staticOperation="true">
+      <modelElement href="model.uml#_EbMeMIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GCcI1IPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EbNFQIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GCcI1YPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GCcI1oPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GCcI14PYEe6WCKlCIlSi_g" name="args">
+        <modelElement href="model.uml#_EbMeMYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCcI2IPYEe6WCKlCIlSi_g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_GCcI2YPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GA20cIPYEe6WCKlCIlSi_g" comments="_GAzKEYPYEe6WCKlCIlSi_g" targetConnectionVisual="_GAzKEoPYEe6WCKlCIlSi_g" name="ApartamentoFamiliar" generalizations="_GAzKEIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EaU7gIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GA20cYPYEe6WCKlCIlSi_g" position="-1815.0,-183.0" size="327.0,198.0"/>
+    <visibility xmi:id="_GA20coPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GA20c4PYEe6WCKlCIlSi_g" defaultValue="2000000" name="valorArea" staticAttribute="true">
+      <modelElement href="model.uml#_EdC4UIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GA20dIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdDfYIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GA20dYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GA20doPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GA20d4PYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GA20eIPYEe6WCKlCIlSi_g" name="valorAdministración">
+      <modelElement href="model.uml#_EdDfYYPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GA20eYPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdEGcIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GA20eoPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GA20e4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GA20fIPYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GA20fYPYEe6WCKlCIlSi_g" name="ApartamentoFamiliar">
+      <modelElement href="model.uml#_EaWwsIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GA20foPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GA20f4PYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GA20gIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GA20gYPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_EaX-0oPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GA20goPYEe6WCKlCIlSi_g" name="ApartamentoFamiliar">
+          <modelElement href="model.uml#_EaU7gIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GA20g4PYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EaWwsYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GA20hIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GA20hYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GA20hoPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_EaWwsoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GA20h4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GA20iIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GA20iYPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_EaXXwIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GA20ioPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GA20i4PYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GA20jIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_EaXXwYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GA20jYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GA20joPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GA20j4PYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_EaXXwoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GA20kIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GA20kYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GA20koPYEe6WCKlCIlSi_g" name="valorAdministración">
+        <modelElement href="model.uml#_EaXXw4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GA20k4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GA20lIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GA20lYPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EaYl4IPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GA20loPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GA20l4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GBcqUIPYEe6WCKlCIlSi_g" comments="_GBZnAYPYEe6WCKlCIlSi_g" targetConnectionVisual="_GBZnAoPYEe6WCKlCIlSi_g" name="Apartaestudio" generalizations="_GBZnAIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EaodgIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GBcqUYPYEe6WCKlCIlSi_g" position="-2040.0,-181.0" size="128.0,175.0"/>
+    <visibility xmi:id="_GBcqUoPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GBcqU4PYEe6WCKlCIlSi_g" defaultValue="1500000" name="valorArea" staticAttribute="true">
+      <modelElement href="model.uml#_EdHJwYPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBcqVIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdHw0IPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBcqVYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBcqVoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBcqV4PYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GBcqWIPYEe6WCKlCIlSi_g" name="Apartaestudio">
+      <modelElement href="model.uml#_EaqSsIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GBcqWYPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GBcqWoPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GBcqW4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GBcqXIPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Earg0oPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GBcqXYPYEe6WCKlCIlSi_g" name="Apartaestudio">
+          <modelElement href="model.uml#_EaodgIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GBcqXoPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EaqSsYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBcqX4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBcqYIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBcqYYPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_Eaq5wIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBcqYoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBcqY4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBcqZIPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_Eaq5wYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBcqZYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBcqZoPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBcqZ4PYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_Eaq5woPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBcqaIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBcqaYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBcqaoPYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_Eaq5w4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBcqa4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBcqbIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GBcqbYPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EasH4IPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GBcqboPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GBcqb4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GBTgYIPYEe6WCKlCIlSi_g" comments="_GBP2AIPYEe6WCKlCIlSi_g" targetConnectionVisual="_GBQdEIPYEe6WCKlCIlSi_g" name="CasaConjuntoCerrado" generalizations="_GBtJAIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EaiW4IPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GBTgYYPYEe6WCKlCIlSi_g" position="-3114.0,118.0" size="321.0,244.0"/>
+    <visibility xmi:id="_GBTgYoPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GBTgY4PYEe6WCKlCIlSi_g" defaultValue="2500000" name="valorArea" staticAttribute="true">
+      <modelElement href="model.uml#_EdEtgYPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBTgZIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdFUkYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBTgZYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBTgZoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBTgZ4PYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GBTgaIPYEe6WCKlCIlSi_g" name="valorAdministración">
+      <modelElement href="model.uml#_EdF7oIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBTgaYPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdF7oYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBTgaoPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBTga4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBTgbIPYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GBTgbYPYEe6WCKlCIlSi_g" name="tienePiscina">
+      <modelElement href="model.uml#_EdF7ooPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBTgboPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdGisIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBTgb4PYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBTgcIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBTgcYPYEe6WCKlCIlSi_g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GBTgcoPYEe6WCKlCIlSi_g" name="tieneCamposDeportivos">
+      <modelElement href="model.uml#_EdGisYPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBTgc4PYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdHJwIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBTgdIPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBTgdYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBTgdoPYEe6WCKlCIlSi_g" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GBTgd4PYEe6WCKlCIlSi_g" name="CasaConjuntoCerrado">
+      <modelElement href="model.uml#_EakMEIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GBTgeIPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GBTgeYPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GBUHcIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GBUHcYPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_EamBQ4PYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GBUHcoPYEe6WCKlCIlSi_g" name="CasaConjuntoCerrado">
+          <modelElement href="model.uml#_EaiW4IPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GBUHc4PYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EakMEYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHdIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHdYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHdoPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_EakMEoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHd4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHeIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHeYPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_EalaMIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHeoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHe4PYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHfIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_EalaMYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHfYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHfoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHf4PYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_EalaMoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHgIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHgYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHgoPYEe6WCKlCIlSi_g" name="númeroPisos">
+        <modelElement href="model.uml#_EalaM4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHg4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHhIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHhYPYEe6WCKlCIlSi_g" name="valorAdministración">
+        <modelElement href="model.uml#_EalaNIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHhoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHh4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHiIPYEe6WCKlCIlSi_g" name="tienePiscina">
+        <modelElement href="model.uml#_EalaNYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHiYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHioPYEe6WCKlCIlSi_g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBUHi4PYEe6WCKlCIlSi_g" name="tieneCamposDeportivos">
+        <modelElement href="model.uml#_EamBQIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBUHjIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBUHjYPYEe6WCKlCIlSi_g" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GBUHjoPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EamoUIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GBUHj4PYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GBUHkIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GBlNMIPYEe6WCKlCIlSi_g" comments="_GBiw8IPYEe6WCKlCIlSi_g" targetConnectionVisual="_GBiw8YPYEe6WCKlCIlSi_g" name="CasaRural" generalizations="_GBiJ4IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EatWAIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GBl0QIPYEe6WCKlCIlSi_g" position="-2657.0,-179.0" size="269.0,221.0"/>
+    <visibility xmi:id="_GBl0QYPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GBl0QoPYEe6WCKlCIlSi_g" defaultValue="1500000" name="valorArea" staticAttribute="true">
+      <modelElement href="model.uml#_EdHw0YPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBl0Q4PYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdIX4YPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBl0RIPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBl0RYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBl0RoPYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GBl0R4PYEe6WCKlCIlSi_g" name="distanciaCabera">
+      <modelElement href="model.uml#_EdIX4oPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBl0SIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdI-8IPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBl0SYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBl0SoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBl0S4PYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GBl0TIPYEe6WCKlCIlSi_g" name="altitud">
+      <modelElement href="model.uml#_EdI-8YPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBl0TYPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdI-8oPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBl0ToPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBl0T4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBl0UIPYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GBl0UYPYEe6WCKlCIlSi_g" name="CasaRural">
+      <modelElement href="model.uml#_EavyQIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GBl0UoPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GBl0U4PYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GBl0VIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GBl0VYPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_EawZVoPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GBl0VoPYEe6WCKlCIlSi_g" name="CasaRural">
+          <modelElement href="model.uml#_EatWAIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GBl0V4PYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EavyQYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0WIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0WYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0WoPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_EavyQoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0W4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0XIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0XYPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_EavyQ4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0XoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0X4PYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0YIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_EavyRIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0YYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0YoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0Y4PYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_EawZUIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0ZIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0ZYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0ZoPYEe6WCKlCIlSi_g" name="númeroPisos">
+        <modelElement href="model.uml#_EawZUYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0Z4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0aIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0aYPYEe6WCKlCIlSi_g" name="distanciaCabera">
+        <modelElement href="model.uml#_EawZUoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0aoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0a4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBl0bIPYEe6WCKlCIlSi_g" name="altitud">
+        <modelElement href="model.uml#_EawZU4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBl0bYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBl0boPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GBl0b4PYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EaxncIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GBl0cIPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GBl0cYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GBvlQIPYEe6WCKlCIlSi_g" comments="_GBsh8IPYEe6WCKlCIlSi_g" targetConnectionVisual="_GBsh8YPYEe6WCKlCIlSi_g" name="CasaUrbana" generalizations="_GBr64IPYEe6WCKlCIlSi_g" subclassedBy="_GBsh8oPYEe6WCKlCIlSi_g _GBtJAIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EazcoIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GBvlQYPYEe6WCKlCIlSi_g" position="-2968.0,-168.0" size="156.0,166.0"/>
+    <visibility xmi:id="_GBvlQoPYEe6WCKlCIlSi_g" label="+"/>
+    <operations xmi:id="_GBvlQ4PYEe6WCKlCIlSi_g" name="CasaUrbana">
+      <modelElement href="model.uml#_Ea0qwIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GBvlRIPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GBvlRYPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GBvlRoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GBvlR4PYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Ea144YPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GBwMUIPYEe6WCKlCIlSi_g" name="CasaUrbana">
+          <modelElement href="model.uml#_EazcoIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GBwMUYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_Ea0qwYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBwMUoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBwMU4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBwMVIPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_Ea1R0IPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBwMVYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBwMVoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBwMV4PYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_Ea1R0YPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBwMWIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBwMWYPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBwMWoPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_Ea1R0oPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBwMW4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBwMXIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBwMXYPYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_Ea1R04PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBwMXoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBwMX4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBwMYIPYEe6WCKlCIlSi_g" name="númeroPisos">
+        <modelElement href="model.uml#_Ea1R1IPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBwMYYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBwMYoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GBwMY4PYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_Ea144oPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GBwMZIPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GBwMZYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_F_p6kIPYEe6WCKlCIlSi_g" comments="_F_figIPYEe6WCKlCIlSi_g" targetConnectionVisual="_F_gwoIPYEe6WCKlCIlSi_g" name="CasaIndependiente" generalizations="_GBsh8oPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EZywAIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_F_p6kYPYEe6WCKlCIlSi_g" position="-2715.0,128.0" size="252.0,175.0"/>
+    <visibility xmi:id="_F_p6koPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_F_p6k4PYEe6WCKlCIlSi_g" defaultValue="3000000" name="valorArea" staticAttribute="true">
+      <modelElement href="model.uml#_EdBDIIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_F_p6lIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdCRQIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_F_p6lYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_F_p6loPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_F_p6l4PYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_F_p6mIPYEe6WCKlCIlSi_g" name="CasaIndependiente">
+      <modelElement href="model.uml#_EaKjcIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_F_p6mYPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_F_p6moPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_F_p6m4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_F_p6nIPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_EaM_soPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_F_p6nYPYEe6WCKlCIlSi_g" name="CasaIndependiente">
+          <modelElement href="model.uml#_EZywAIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_F_p6noPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EaKjcYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_F_p6n4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_F_p6oIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_F_p6oYPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_EaLKgIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_F_p6ooPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_F_p6o4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_F_p6pIPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_EaLKgYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_F_p6pYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_F_p6poPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_F_p6p4PYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_EaLKgoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_F_p6qIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_F_p6qYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_F_p6qoPYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_EaLKg4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_F_p6q4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_F_p6rIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_F_p6rYPYEe6WCKlCIlSi_g" name="númeroPisos">
+        <modelElement href="model.uml#_EaLxkIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_F_p6roPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_F_p6r4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_F_qhoIPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EaNmwIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_F_qhoYPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_F_qhooPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GAtDcIPYEe6WCKlCIlSi_g" comments="_GArOQIPYEe6WCKlCIlSi_g" targetConnectionVisual="_GAr1UIPYEe6WCKlCIlSi_g" name="Apartamento" generalizations="_GB-Ow4PYEe6WCKlCIlSi_g" subclassedBy="_GAzKEIPYEe6WCKlCIlSi_g _GBZnAIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EaQDAIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GAtqgIPYEe6WCKlCIlSi_g" position="-2259.0,-487.0" size="128.0,145.0"/>
+    <visibility xmi:id="_GAtqgYPYEe6WCKlCIlSi_g" label="+"/>
+    <operations xmi:id="_GAtqgoPYEe6WCKlCIlSi_g" name="Apartamento">
+      <modelElement href="model.uml#_EaRRIIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GAtqg4PYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GAtqhIPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GAtqhYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GAtqhoPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_EaTGUYPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GAtqh4PYEe6WCKlCIlSi_g" name="Apartamento">
+          <modelElement href="model.uml#_EaQDAIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GAtqiIPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EaR4MIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GAtqiYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GAtqioPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GAtqi4PYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_EaR4MYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GAtqjIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GAtqjYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GAtqjoPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_EaR4MoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GAtqj4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GAtqkIPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GAtqkYPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_EaR4M4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GAtqkoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GAtqk4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GAtqlIPYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_EaR4NIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GAtqlYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GAtqloPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GAtql4PYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EaTGUoPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GAtqmIPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GAtqmYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GB2S8IPYEe6WCKlCIlSi_g" comments="_GBz2sIPYEe6WCKlCIlSi_g" targetConnectionVisual="_GB0dwIPYEe6WCKlCIlSi_g" name="Inmueble" subclassedBy="_GB-OwIPYEe6WCKlCIlSi_g _GCGxoIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ea3HAIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GB2S8YPYEe6WCKlCIlSi_g" position="-2408.0,-1058.0" size="128.0,267.0"/>
+    <visibility xmi:id="_GB2S8oPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GB2S84PYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+      <modelElement href="model.uml#_EdKNEIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GB2S9IPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdK0IIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GB2S9YPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GB2S9oPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GB2S94PYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GB2S-IPYEe6WCKlCIlSi_g" name="área">
+      <modelElement href="model.uml#_EdK0IYPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GB2S-YPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdK0IoPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GB2S-oPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GB2S-4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GB2S_IPYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GB2S_YPYEe6WCKlCIlSi_g" name="dirección">
+      <modelElement href="model.uml#_EdLbMIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GB2S_oPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdLbMYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GB2S_4PYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GB2TAIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GB2TAYPYEe6WCKlCIlSi_g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GB2TAoPYEe6WCKlCIlSi_g" name="precioVenta">
+      <modelElement href="model.uml#_EdLbMoPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GB2TA4PYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdMCQIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GB2TBIPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GB2TBYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GB2TBoPYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GB2TB4PYEe6WCKlCIlSi_g" name="Inmueble">
+      <modelElement href="model.uml#_Ea4VIIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GB2TCIPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GB2TCYPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GB2TCoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GB2TC4PYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Ea48MoPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GB2TDIPYEe6WCKlCIlSi_g" name="Inmueble">
+          <modelElement href="model.uml#_Ea3HAIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GB2TDYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_Ea4VIYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GB2TDoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GB2TD4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GB2TEIPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_Ea4VIoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GB2TEYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GB2TEoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GB2TE4PYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_Ea4VI4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GB2TFIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GB2TFYPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GB2TFoPYEe6WCKlCIlSi_g" name="calcularPrecioVenta">
+      <modelElement href="model.uml#_Ea5jQIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GB2TF4PYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GB2TGIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GB2TGYPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Ea6KUIPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GB2TGoPYEe6WCKlCIlSi_g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GB2TG4PYEe6WCKlCIlSi_g" name="valorArea">
+        <modelElement href="model.uml#_Ea5jQYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GB2THIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GB2THYPYEe6WCKlCIlSi_g" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GB2THoPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_Ea6KUYPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GB2TH4PYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GB2TIIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GCJ08IPYEe6WCKlCIlSi_g" comments="_ms9o0IPZEe6WCKlCIlSi_g" targetConnectionVisual="_ms-P4IPZEe6WCKlCIlSi_g" name="Local" generalizations="_GCGxoIPYEe6WCKlCIlSi_g" subclassedBy="_GCUNAIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ea_p4IPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GCJ08YPYEe6WCKlCIlSi_g" position="-1922.0,-764.0" size="128.0,175.0"/>
+    <visibility xmi:id="_GCJ08oPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GCJ084PYEe6WCKlCIlSi_g" name="tipoLocal">
+      <modelElement href="model.uml#_EdN3cIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GCJ09IPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdN3cYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GCJ09YPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GCJ09oPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GCJ094PYEe6WCKlCIlSi_g" name="tipo">
+        <modelElement href="model.uml#_EbBfEIPYEe6WCKlCIlSi_g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GCJ0-IPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EbFwgIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GCJ0-YPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GCJ0-oPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_GCJ0-4PYEe6WCKlCIlSi_g" name="Local">
+      <modelElement href="model.uml#_Ec3SIIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GCJ0_IPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GCJ0_YPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GCJ0_oPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GCJ0_4PYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Ec4gQoPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GCJ1AIPYEe6WCKlCIlSi_g" name="Local">
+          <modelElement href="model.uml#_Ea_p4IPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GCJ1AYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_Ec3SIYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCJ1AoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCJ1A4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCJ1BIPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_Ec3SIoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCJ1BYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCJ1BoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCJ1B4PYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_Ec3SI4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCJ1CIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCJ1CYPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCJ1CoPYEe6WCKlCIlSi_g" name="tipoLocal">
+        <modelElement href="model.uml#_Ec35MIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCJ1C4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCJ1DIPYEe6WCKlCIlSi_g" name="tipo">
+          <modelElement href="model.uml#_EbBfEIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GCWpQIPYEe6WCKlCIlSi_g" comments="_GCUNAYPYEe6WCKlCIlSi_g" targetConnectionVisual="_GCU0EIPYEe6WCKlCIlSi_g" name="LocalComercial" generalizations="_GCUNAIPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EbIMwIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GCWpQYPYEe6WCKlCIlSi_g" position="-1896.0,-484.0" size="128.0,198.0"/>
+    <visibility xmi:id="_GCWpQoPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GCWpQ4PYEe6WCKlCIlSi_g" defaultValue="3000000" name="valorArea" staticAttribute="true">
+      <modelElement href="model.uml#_EdOegIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GCWpRIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdOegoPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GCWpRYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GCWpRoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GCWpR4PYEe6WCKlCIlSi_g" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GCWpSIPYEe6WCKlCIlSi_g" name="centroComercial">
+      <modelElement href="model.uml#_EdPFkIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GCWpSYPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdPFkYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GCWpSoPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GCWpS4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GCWpTIPYEe6WCKlCIlSi_g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GCWpTYPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_EbKB8IPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GCWpToPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GCWpT4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_GCWpUIPYEe6WCKlCIlSi_g" name="LocalComercial">
+      <modelElement href="model.uml#_Ec9_0YPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GCWpUYPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GCWpUoPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GCWpU4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GCWpVIPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Ec-m5YPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GCWpVYPYEe6WCKlCIlSi_g" name="LocalComercial">
+          <modelElement href="model.uml#_EbIMwIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GCWpVoPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_Ec9_0oPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCWpV4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCWpWIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCWpWYPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_Ec9_04PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCWpWoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCWpW4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCWpXIPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_Ec-m4IPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCWpXYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCWpXoPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCWpX4PYEe6WCKlCIlSi_g" name="tipoLocal">
+        <modelElement href="model.uml#_Ec-m4YPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCWpYIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCWpYYPYEe6WCKlCIlSi_g" name="tipo">
+          <modelElement href="model.uml#_Ec9YwIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCWpYoPYEe6WCKlCIlSi_g" name="centroComercial">
+        <modelElement href="model.uml#_Ec-m4oPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCWpY4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCWpZIPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GCB5IIPYEe6WCKlCIlSi_g" comments="_GB-OwYPYEe6WCKlCIlSi_g" targetConnectionVisual="_GB-OwoPYEe6WCKlCIlSi_g" name="InmuebleVivienda" generalizations="_GB-OwIPYEe6WCKlCIlSi_g" subclassedBy="_GB-Ow4PYEe6WCKlCIlSi_g _GB-10IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_Ea7YcIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GCB5IYPYEe6WCKlCIlSi_g" position="-2592.0,-764.0" size="128.0,198.0"/>
+    <visibility xmi:id="_GCB5IoPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GCB5I4PYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+      <modelElement href="model.uml#_EdMpUIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GCB5JIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdMpUYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GCB5JYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GCB5JoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GCB5J4PYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_GCB5KIPYEe6WCKlCIlSi_g" name="númeroBaños">
+      <modelElement href="model.uml#_EdNQYIPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GCB5KYPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdNQYYPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GCB5KoPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GCB5K4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GCB5LIPYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GCB5LYPYEe6WCKlCIlSi_g" name="InmuebleVivienda">
+      <modelElement href="model.uml#_Ea8mkIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GCB5LoPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GCB5L4PYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GCB5MIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GCB5MYPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_Ea90soPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GCB5MoPYEe6WCKlCIlSi_g" name="InmuebleVivienda">
+          <modelElement href="model.uml#_Ea7YcIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GCB5M4PYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_Ea8mkYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCB5NIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCB5NYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCB5NoPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_Ea8mkoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCB5N4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCB5OIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCB5OYPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_Ea8mk4PYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCB5OoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCB5O4PYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCB5PIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_Ea8mlIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCB5PYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCB5PoPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GCB5P4PYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_Ea8mlYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GCB5QIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GCB5QYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GCB5QoPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_Ea-bwIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GCB5Q4PYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GCB5RIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GBK9gIPYEe6WCKlCIlSi_g" comments="_GBIhQIPYEe6WCKlCIlSi_g" targetConnectionVisual="_GBIhQYPYEe6WCKlCIlSi_g" name="Casa" generalizations="_GB-10IPYEe6WCKlCIlSi_g" subclassedBy="_GBiJ4IPYEe6WCKlCIlSi_g _GBr64IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_EaZ0AIPYEe6WCKlCIlSi_g"/>
+    <visualProperties xmi:id="_GBK9gYPYEe6WCKlCIlSi_g" position="-2720.0,-453.0" size="128.0,175.0"/>
+    <visibility xmi:id="_GBK9goPYEe6WCKlCIlSi_g" label="+"/>
+    <attributes xmi:id="_GBK9g4PYEe6WCKlCIlSi_g" name="númeroPisos">
+      <modelElement href="model.uml#_EdEGcYPYEe6WCKlCIlSi_g"/>
+      <stereotypes xmi:id="_GBK9hIPYEe6WCKlCIlSi_g" name="LegacyStyledElement">
+        <modelElement href="model.uml#_EdEtgIPYEe6WCKlCIlSi_g"/>
+      </stereotypes>
+      <visibility xmi:id="_GBK9hYPYEe6WCKlCIlSi_g" label="#"/>
+      <cardinality xmi:id="_GBK9hoPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <type xmi:id="_GBK9h4PYEe6WCKlCIlSi_g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_GBK9iIPYEe6WCKlCIlSi_g" name="Casa">
+      <modelElement href="model.uml#_EabCIIPYEe6WCKlCIlSi_g"/>
+      <keywords xmi:id="_GBK9iYPYEe6WCKlCIlSi_g" keyword="create"/>
+      <visibility xmi:id="_GBK9ioPYEe6WCKlCIlSi_g" label="+"/>
+      <cardinality xmi:id="_GBK9i4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GBK9jIPYEe6WCKlCIlSi_g">
+        <modelElement href="model.uml#_EacQRIPYEe6WCKlCIlSi_g"/>
+        <type xmi:id="_GBK9jYPYEe6WCKlCIlSi_g" name="Casa">
+          <modelElement href="model.uml#_EaZ0AIPYEe6WCKlCIlSi_g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GBK9joPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+        <modelElement href="model.uml#_EabCIYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBK9j4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBK9kIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBK9kYPYEe6WCKlCIlSi_g" name="área">
+        <modelElement href="model.uml#_EabpMIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBK9koPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBK9k4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBK9lIPYEe6WCKlCIlSi_g" name="dirección">
+        <modelElement href="model.uml#_EabpMYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBK9lYPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBK9loPYEe6WCKlCIlSi_g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBK9l4PYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+        <modelElement href="model.uml#_EabpMoPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBK9mIPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBK9mYPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBK9moPYEe6WCKlCIlSi_g" name="númeroBaños">
+        <modelElement href="model.uml#_EacQQIPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBK9m4PYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBK9nIPYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GBK9nYPYEe6WCKlCIlSi_g" name="númeroPisos">
+        <modelElement href="model.uml#_EacQQYPYEe6WCKlCIlSi_g"/>
+        <cardinality xmi:id="_GBK9noPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+        <type xmi:id="_GBK9n4PYEe6WCKlCIlSi_g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GBK9oIPYEe6WCKlCIlSi_g" name="imprimir">
+      <modelElement href="model.uml#_Eac3UIPYEe6WCKlCIlSi_g"/>
+      <visibility xmi:id="_GBK9oYPYEe6WCKlCIlSi_g" label="~"/>
+      <cardinality xmi:id="_GBK9ooPYEe6WCKlCIlSi_g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ms9o0IPZEe6WCKlCIlSi_g" sourceConnectionVisual="_ms-P4IPZEe6WCKlCIlSi_g" text="Esta clase denominada Local modela un tipo específico de inmueble que no está&#xD;&#xA;destinado para la vivienda que tiene como atributos un tipo que especifica si&#xD;&#xA;es un local interno o que da a la calle.&#xD;&#xA;&#xD;&#xA;@version 1.2/2020" item="_GCJ08IPYEe6WCKlCIlSi_g">
+    <modelElement href="model.uml#_msMMwIPZEe6WCKlCIlSi_g"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>40</y>
+      <w>280</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>ejemplosclase.cuentas::Cuenta
+--
+#saldo: float
+#numeroConsignaciones = 0: int
+#numeroRetiros = 0: int
+#tasaAnual: float
+#comisionMensual = 0: float
+--
++Cuenta(float saldo, float tasaAnual): ctor
++consignar(float cantidad): void
++retirar(float cantidad): void
++calcularInteres(): void
++extractoMensual(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>60</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>ejemplosclase.cuentas::CuentaAhorros
+--
+-activa: boolean
+--
++CuentaAhorros(float saldo, float tasa): ctor
++retirar(float cantidad): void
++consignar(float cantidad): void
++extractoMensual(): void
++imprimir(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>270</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>ejemplosclase.cuentas::CuentaCorriente
+--
+~sobregiro: float
+--
++CuentaCorriente(float saldo, float tasa): ctor
++retirar(float cantidad): void
++consignar(float cantidad): void
++extractoMensual(): void
++imprimir(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
