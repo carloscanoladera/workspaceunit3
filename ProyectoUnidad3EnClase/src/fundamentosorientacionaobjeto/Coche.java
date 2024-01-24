@@ -1,5 +1,5 @@
 
-package enclase.modelo;
+package fundamentosorientacionaobjeto;
 public abstract class  Coche {
 	private String color;
 	private String marca; 
