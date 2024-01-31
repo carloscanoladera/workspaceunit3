@@ -8,10 +8,13 @@ public final class Employee extends Person {
 
 	public Employee() {
 
+		// person="Employee";
+
 	}
 
 	public Employee(int id, String firstName, String lastName, int salary) {
 
+		super(firstName, lastName);
 		this.id = id;
 		this.salary = salary;
 	}
@@ -28,44 +31,19 @@ public final class Employee extends Person {
 		this.id = id;
 	}
 
-	
-
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-
-	
 
 	public int getAnnualSalary() {
 
 		return this.salary * 12;
 	}
 
-	public int raiseSalary(int percent) {
+	/*
+	 * @Override public final String getFullName() {
+	 * 
+	 * return this.firstName + " " + this.lastName ; }
+	 */
 
-		Double percentage = (double) percent / 100;
-		double salaryDec = this.salary;
-		salaryDec = salaryDec + salaryDec * percentage;
-		setSalary((int) Math.round(salaryDec));
-
-		// setSalary(Long.valueOf(Math.round(Double.valueOf(percent)/100*Double.valueOf(this.getSalary())+Double.valueOf(this.getSalary()))).intValue());
-
-		return this.salary;
-
-	}
-	
-	//@Override
-	//public String getName() {
-		
-	//}
-
-
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", salary=" + salary + ", getId()=" + getId() + ", getSalary()=" + getSalary()
-				 + "]";
-	}
-
-	
-	
 }

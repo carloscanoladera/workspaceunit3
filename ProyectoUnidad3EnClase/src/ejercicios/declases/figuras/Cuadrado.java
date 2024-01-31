@@ -1,6 +1,6 @@
 package ejercicios.declases.figuras;
 
-public class Cuadrado extends FiguraGeometrica{
+public class Cuadrado {
 	int lado; // Atributo que define el lado de un cuadrado
 
 	/**
@@ -8,32 +8,17 @@ public class Cuadrado extends FiguraGeometrica{
 	 * 
 	 * @param lado Parámetro que define la longitud de la base de un cuadrado
 	 */
-	
-	public Cuadrado() {
-		
-		this.tipoFigura=EnumFigura.POLIGONOS;
-	}
 	public Cuadrado(int lado) {
 		this.lado = lado;
-		this.tipoFigura=EnumFigura.POLIGONOS;
 	}
 
-	
-	
-	public int getLado() {
-		return lado;
-	}
-	public void setLado(int lado) {
-		this.lado = lado;
-	}
 	/**
 	 * Método que calcula y devuelve el área de un cuadrado como el lado elevado al
 	 * cuadrado
 	 * 
 	 * @return Área de un Cuadrado
 	 */
-	@Override
-	public double calcularArea() {
+	double calcularArea() {
 		return lado * lado;
 	}
 
@@ -43,8 +28,7 @@ public class Cuadrado extends FiguraGeometrica{
 	 * 
 	 * @return Perímetro de un cuadrado
 	 */
-	@Override
-	public double calcularPerimetro() {
+	double calcularPerímetro() {
 		return (4 * lado);
 	}
 }
