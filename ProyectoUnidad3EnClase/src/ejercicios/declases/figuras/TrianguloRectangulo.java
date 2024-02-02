@@ -1,27 +1,47 @@
 package ejercicios.declases.figuras;
 
-public class TriánguloRectángulo {
+public class TrianguloRectangulo extends FiguraGeometrica{
 	int base; // Atributo que define la base de un triángulo rectángulo
 	int altura; // Atributo que define la altura de un triángulo rectángulo
 
+	
+	
+	public TrianguloRectangulo() {
+		this.tipoFigura=EnumFigura.POLIGONOS;
+	}
 	/**
 	 * Constructor de la clase TriánguloRectángulo
 	 * 
 	 * @param base   Parámetro que define la base de un triángulo rectángulo
 	 * @param altura Parámetro que define la altura de un triángulo rectángulo
 	 */
-	public TriánguloRectángulo(int base, int altura) {
+	public TrianguloRectangulo(int base, int altura) {
 		this.base = base;
 		this.altura = altura;
 	}
+	
+	
 
+	public int getBase() {
+		return base;
+	}
+	public int getAltura() {
+		return altura;
+	}
+	public void setBase(int base) {
+		this.base = base;
+	}
+	public void setAltura(int altura) {
+		this.altura = altura;
+	}
 	/**
 	 * Método que calcula y devuelve el área de un triángulo rectángulo como la base
 	 * multiplicada por la altura sobre 2
 	 * 
 	 * @return Área de un triángulo rectángulo
 	 */
-	double calcularArea() {
+	@Override
+	public double calcularArea() {
 		return (base * altura / 2);
 	}
 
@@ -31,7 +51,8 @@ public class TriánguloRectángulo {
 	 * 
 	 * @return Perímetro de un triángulo rectángulo
 	 */
-	double calcularPerímetro() {
+	@Override
+	public double calcularPerimetro() {
 		return (base + altura + calcularHipotenusa()); /*
 														 * Invoca al método calcular hipotenusa
 														 */

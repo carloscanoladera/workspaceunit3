@@ -1,14 +1,34 @@
 package ejercicios.declases.figuras;
 
-public class Círculo {
-	int radio; // Atributo que define el radio de un círculo
+public class Circulo extends FiguraGeometrica {
+	private int radio; // Atributo que define el radio de un círculo
 
+	
+	public Circulo() {
+		
+		this.tipoFigura=EnumFigura.ELIPSES;
+		
+	}
+	
 	/**
 	 * Constructor de la clase Círculo
 	 * 
 	 * @param radio Parámetro que define el radio de un círculo
 	 */
-	Círculo(int radio) {
+	public Circulo(int radio) {
+		
+		this();
+		this.radio = radio;
+		
+	}
+	
+	
+
+	public int getRadio() {
+		return radio;
+	}
+
+	public void setRadio(int radio) {
 		this.radio = radio;
 	}
 
@@ -18,7 +38,8 @@ public class Círculo {
 	 * 
 	 * @return Área de un círculo
 	 */
-	double calcularArea() {
+	@Override
+	public double calcularArea() {
 		return Math.PI * Math.pow(radio, 2);
 	}
 
@@ -28,7 +49,12 @@ public class Círculo {
 	 * 
 	 * @return Perímetro de un círculo
 	 */
-	double calcularPerímetro() {
+	@Override
+	public double calcularPerimetro() {
 		return 2 * Math.PI * radio;
 	}
+	
+	
+	
+	
 }
