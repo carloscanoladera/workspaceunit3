@@ -33,10 +33,11 @@ public class ClasePrincipal {
 		
 		System.out.println("Beneficios: " + miTesla.beneficios(0.18));
 		
-		SUV miTeslaSUV = new SUV("Azul","Tesla","Model E",35000,30000);
+		SUVElectrico miTeslaSUV = new SUVElectrico("Azul","Tesla","Model E",35000,30000, 75, 15);
 		
-		System.out.println("Mi SUV " + miTeslaSUV);
-		
+		System.out.println("Mi SUV Eléctrico" + miTeslaSUV);
+				
+		System.out.println("Autonomía: " + miTeslaSUV.autonomia());
 
 	}
 

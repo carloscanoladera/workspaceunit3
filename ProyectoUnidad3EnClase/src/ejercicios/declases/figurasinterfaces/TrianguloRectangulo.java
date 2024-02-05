@@ -1,4 +1,4 @@
-package ejercicios.declases.figuras;
+package ejercicios.declases.figurasinterfaces;
 
 public class TrianguloRectangulo extends FiguraGeometrica{
 	int base; // Atributo que define la base de un triángulo rectángulo
