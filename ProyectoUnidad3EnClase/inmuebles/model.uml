@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_BhiJcIPYEe6WCKlCIlSi_g" name="model">
+    <eAnnotations xmi:id="_EaCAkIPYEe6WCKlCIlSi_g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_EaCAkYPYEe6WCKlCIlSi_g" source="codegen">
+        <details xmi:id="_EaCAkoPYEe6WCKlCIlSi_g" key="codegenDirectory" value="/ProyectoUnidad3Español/src"/>
+        <details xmi:id="_F-bykIPYEe6WCKlCIlSi_g" key="AssociatedSourceCode" value="/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/Local.java;1602259331/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/CasaIndependiente.java;2340166636/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/Apartamento.java;1072084808/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/ApartamentoFamiliar.java;8768782/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/Casa.java;3340325530/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/CasaConjuntoCerrado.java;2816906662/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/Apartaestudio.java;2058601622/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/CasaRural.java;3209593122/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/CasaUrbana.java;1016890582/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/Inmueble.java;1845626084/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/InmuebleVivienda.java;1067334043/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/LocalComercial.java;1032640708/1;/ProyectoUnidad3Español/src/ejemplosclase/inmuebles/MainInmuebles.java;2310488957/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_EaFD4IPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFD4YPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFD4oPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFD44PYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFq8IPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFq8YPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFq8oPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_EaFq84PYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_EaHgIIPYEe6WCKlCIlSi_g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EYnrUIPYEe6WCKlCIlSi_g" name="ejemplosclase">
+      <packagedElement xmi:type="uml:Package" xmi:id="_EYz4kIPYEe6WCKlCIlSi_g" name="inmuebles">
+        <packagedElement xmi:type="uml:Class" xmi:id="_EZywAIPYEe6WCKlCIlSi_g" name="CasaIndependiente">
+          <ownedComment xmi:id="_EdinkIPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada CasaIndependiente modela un tipo específico de casa&#xD;
+urbana que no está en conjunto cerrado y es completamente independiente de&#xD;
+otras casas. Tiene un atributo estático para especificar un valor del área&#xD;
+del inmueble.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_EcuvQIPYEe6WCKlCIlSi_g" general="_EazcoIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdBDIIPYEe6WCKlCIlSi_g" name="valorArea" visibility="protected" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_EdBqMIPYEe6WCKlCIlSi_g" value="3000000"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdXBYIPYEe6WCKlCIlSi_g" name="CasaIndependiente" specification="_EaKjcIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdXBYYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdXBYoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdXBY4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdXBZIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdXBZYPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdXBZoPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdXBZ4PYEe6WCKlCIlSi_g" type="_EZywAIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, númeroHabitaciones, númeroBaños, númeroPisos);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdarwIPYEe6WCKlCIlSi_g" name="imprimir" specification="_EaNmwIPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EaKjcIPYEe6WCKlCIlSi_g" name="CasaIndependiente" method="_EdXBYIPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_EaM_sIPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_EaM_sYPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EaKjcYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaLKgIPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaLKgYPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaLKgoPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaLKg4PYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaLxkIPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaM_soPYEe6WCKlCIlSi_g" type="_EZywAIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_EaNmwIPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdarwIPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EaQDAIPYEe6WCKlCIlSi_g" name="Apartamento">
+          <ownedComment xmi:id="_EdinkYPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada Apartamento modela un tipo de inmueble específico&#xD;
+destinado para la vivienda.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ecv9YIPYEe6WCKlCIlSi_g" general="_Ea7YcIPYEe6WCKlCIlSi_g"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdbS0IPYEe6WCKlCIlSi_g" name="Apartamento" specification="_EaRRIIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdbS0YPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdbS0oPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdbS04PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdbS1IPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdbS1YPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdbS1oPYEe6WCKlCIlSi_g" type="_EaQDAIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, númeroHabitaciones, númeroBaños);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdbS14PYEe6WCKlCIlSi_g" name="imprimir" specification="_EaTGUoPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EaRRIIPYEe6WCKlCIlSi_g" name="Apartamento" method="_EdbS0IPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_EaR4NYPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_EaTGUIPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EaR4MIPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaR4MYPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaR4MoPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaR4M4PYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaR4NIPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaTGUYPYEe6WCKlCIlSi_g" type="_EaQDAIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_EaTGUoPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdbS14PYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EaU7gIPYEe6WCKlCIlSi_g" name="ApartamentoFamiliar">
+          <ownedComment xmi:id="_EdjOoIPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada ApartamentoFamiliar modela un tipo&#xD;
+		* específico de apartamento con atributos como el valor por área y el&#xD;
+		* valor de la administración.&#xD;
+		* @version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ecv9YYPYEe6WCKlCIlSi_g" general="_EaQDAIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdC4UIPYEe6WCKlCIlSi_g" name="valorArea" visibility="protected" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_EdC4UYPYEe6WCKlCIlSi_g" value="2000000"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdDfYYPYEe6WCKlCIlSi_g" name="valorAdministración" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdbS2IPYEe6WCKlCIlSi_g" name="ApartamentoFamiliar" specification="_EaWwsIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_Edcg8IPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Edcg8YPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Edcg8oPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Edcg84PYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Edcg9IPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Edcg9YPYEe6WCKlCIlSi_g" name="valorAdministración">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Edcg9oPYEe6WCKlCIlSi_g" type="_EaU7gIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+			super(identificadorInmobiliario, área, dirección,&#xD;
+			númeroHabitaciones, númeroBaños);&#xD;
+			this.valorAdministración = valorAdministración;&#xD;
+			</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Edcg94PYEe6WCKlCIlSi_g" name="imprimir" specification="_EaYl4IPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+			System.out.println(&quot;Valor de la administración = $&quot; +&#xD;
+			valorAdministración);&#xD;
+			System.out.println();&#xD;
+			</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EaWwsIPYEe6WCKlCIlSi_g" name="ApartamentoFamiliar" method="_EdbS2IPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_EaX-0IPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_EaX-0YPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EaWwsYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaWwsoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaXXwIPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaXXwYPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaXXwoPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaXXw4PYEe6WCKlCIlSi_g" name="valorAdministración">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EaX-0oPYEe6WCKlCIlSi_g" type="_EaU7gIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_EaYl4IPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_Edcg94PYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EaZ0AIPYEe6WCKlCIlSi_g" name="Casa">
+          <ownedComment xmi:id="_EdjOoYPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada Casa modela un tipo específico de inmueble destinado&#xD;
+para la vivienda con atributos como el número de pisos que tiene una casa.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_EcwkcIPYEe6WCKlCIlSi_g" general="_Ea7YcIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdEGcYPYEe6WCKlCIlSi_g" name="númeroPisos" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EddIAIPYEe6WCKlCIlSi_g" name="Casa" specification="_EabCIIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EddIAYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddIAoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddIA4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddIBIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddIBYPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddIBoPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddIB4PYEe6WCKlCIlSi_g" type="_EaZ0AIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, númeroHabitaciones, númeroBaños);&#xD;
+		this.númeroPisos = númeroPisos;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EddvEIPYEe6WCKlCIlSi_g" name="imprimir" specification="_Eac3UIPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println(&quot;Número de pisos = &quot; + númeroPisos);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EabCIIPYEe6WCKlCIlSi_g" name="Casa" method="_EddIAIPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_EacQQoPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_EacQQ4PYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EabCIYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EabpMIPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EabpMYPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EabpMoPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EacQQIPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EacQQYPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EacQRIPYEe6WCKlCIlSi_g" type="_EaZ0AIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Eac3UIPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EddvEIPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EaiW4IPYEe6WCKlCIlSi_g" name="CasaConjuntoCerrado">
+          <ownedComment xmi:id="_EdjOooPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada CasaConjuntoCerrado modela un tipo específico de casa&#xD;
+urbana que se encuentra en un conjunto cerrado con atributos como el valor&#xD;
+por área, valor de la administración y valores booleanos para especificar si&#xD;
+tiene piscina y campos deportivos.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_EcyZoIPYEe6WCKlCIlSi_g" general="_EazcoIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdEtgYPYEe6WCKlCIlSi_g" name="valorArea" visibility="protected" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_EdFUkIPYEe6WCKlCIlSi_g" value="2500000"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdF7oIPYEe6WCKlCIlSi_g" name="valorAdministración" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdF7ooPYEe6WCKlCIlSi_g" name="tienePiscina" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdGisYPYEe6WCKlCIlSi_g" name="tieneCamposDeportivos" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EddvEYPYEe6WCKlCIlSi_g" name="CasaConjuntoCerrado" specification="_EakMEIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EddvEoPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvE4PYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvFIPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvFYPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvFoPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvF4PYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvGIPYEe6WCKlCIlSi_g" name="valorAdministración">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvGYPYEe6WCKlCIlSi_g" name="tienePiscina">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvGoPYEe6WCKlCIlSi_g" name="tieneCamposDeportivos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EddvG4PYEe6WCKlCIlSi_g" type="_EaiW4IPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, númeroHabitaciones, númeroBaños, númeroPisos);&#xD;
+		this.valorAdministración = valorAdministración;&#xD;
+		this.tienePiscina = tienePiscina;&#xD;
+		this.tieneCamposDeportivos = tieneCamposDeportivos;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdeWIIPYEe6WCKlCIlSi_g" name="imprimir" specification="_EamoUIPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+	System.out.println(&quot;Valor de la administración = &quot; +&#xD;
+	valorAdministración);&#xD;
+	System.out.println(&quot;Tiene piscina? = &quot; + tienePiscina);&#xD;
+	System.out.println(&quot;Tiene campos deportivos? = &quot; +&#xD;
+	tieneCamposDeportivos);&#xD;
+	System.out.println();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EakMEIPYEe6WCKlCIlSi_g" name="CasaConjuntoCerrado" method="_EddvEYPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_EamBQYPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_EamBQoPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EakMEYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EakMEoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EalaMIPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EalaMYPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EalaMoPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EalaM4PYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EalaNIPYEe6WCKlCIlSi_g" name="valorAdministración">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EalaNYPYEe6WCKlCIlSi_g" name="tienePiscina">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EamBQIPYEe6WCKlCIlSi_g" name="tieneCamposDeportivos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EamBQ4PYEe6WCKlCIlSi_g" type="_EaiW4IPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_EamoUIPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdeWIIPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EaodgIPYEe6WCKlCIlSi_g" name="Apartaestudio">
+          <ownedComment xmi:id="_EdjOo4PYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada Apartaestudio modela un tipo específico de apartamento&#xD;
+que tiene una sola habitación.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_EczAsIPYEe6WCKlCIlSi_g" general="_EaQDAIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdHJwYPYEe6WCKlCIlSi_g" name="valorArea" visibility="protected" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_EdHJwoPYEe6WCKlCIlSi_g" value="1500000"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdeWIYPYEe6WCKlCIlSi_g" name="Apartaestudio" specification="_EaqSsIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdeWIoPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdeWI4PYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdeWJIPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdeWJYPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdeWJoPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdeWJ4PYEe6WCKlCIlSi_g" type="_EaodgIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+// Los apartaestudios tienen una sola habitación y un solo baño&#xD;
+		super(identificadorInmobiliario, área, dirección, 1, 1);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ede9MIPYEe6WCKlCIlSi_g" name="imprimir" specification="_EasH4IPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EaqSsIPYEe6WCKlCIlSi_g" name="Apartaestudio" method="_EdeWIYPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_Earg0IPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Earg0YPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EaqSsYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Eaq5wIPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Eaq5wYPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Eaq5woPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Eaq5w4PYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Earg0oPYEe6WCKlCIlSi_g" type="_EaodgIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_EasH4IPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_Ede9MIPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EatWAIPYEe6WCKlCIlSi_g" name="CasaRural">
+          <ownedComment xmi:id="_EdjOpIPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada CasaRural modela un tipo específico de casa ubicada en&#xD;
+el sector rural&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ec0O0IPYEe6WCKlCIlSi_g" general="_EaZ0AIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdHw0YPYEe6WCKlCIlSi_g" name="valorArea" visibility="protected" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_EdIX4IPYEe6WCKlCIlSi_g" value="1500000"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdIX4oPYEe6WCKlCIlSi_g" name="distanciaCabera" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdI-8YPYEe6WCKlCIlSi_g" name="altitud" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdfkQIPYEe6WCKlCIlSi_g" name="CasaRural" specification="_EavyQIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdfkQYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkQoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkQ4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkRIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkRYPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkRoPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkR4PYEe6WCKlCIlSi_g" name="distanciaCabera">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkSIPYEe6WCKlCIlSi_g" name="altitud">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdfkSYPYEe6WCKlCIlSi_g" type="_EatWAIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, númeroHabitaciones, númeroBaños, númeroPisos);&#xD;
+		this.distanciaCabera = distanciaCabera;&#xD;
+		this.altitud = altitud;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdfkSoPYEe6WCKlCIlSi_g" name="imprimir" specification="_EaxncIPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println(&quot;Distancia la cabecera municipal = &quot; + númeroHabitaciones + &quot; km.&quot;);&#xD;
+		System.out.println(&quot;Altitud sobre el nivel del mar = &quot; + altitud + &quot; metros.&quot;);&#xD;
+		System.out.println();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EavyQIPYEe6WCKlCIlSi_g" name="CasaRural" method="_EdfkQIPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_EawZVIPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_EawZVYPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_EavyQYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EavyQoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EavyQ4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EavyRIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EawZUIPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EawZUYPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EawZUoPYEe6WCKlCIlSi_g" name="distanciaCabera">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EawZU4PYEe6WCKlCIlSi_g" name="altitud">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EawZVoPYEe6WCKlCIlSi_g" type="_EatWAIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_EaxncIPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdfkSoPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EazcoIPYEe6WCKlCIlSi_g" name="CasaUrbana">
+          <ownedComment xmi:id="_EdjOpYPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada CasaUrbana modela un tipo específico de casa destinada&#xD;
+para la vivienda localizada en el sector urbano.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ec014IPYEe6WCKlCIlSi_g" general="_EaZ0AIPYEe6WCKlCIlSi_g"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdgLUIPYEe6WCKlCIlSi_g" name="CasaUrbana" specification="_Ea0qwIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdgLUYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLUoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLU4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLVIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLVYPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLVoPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLV4PYEe6WCKlCIlSi_g" type="_EazcoIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, númeroHabitaciones, númeroBaños, númeroPisos);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdgLWIPYEe6WCKlCIlSi_g" name="imprimir" specification="_Ea144oPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Ea0qwIPYEe6WCKlCIlSi_g" name="CasaUrbana" method="_EdgLUIPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_Ea1R1YPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ea144IPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Ea0qwYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea1R0IPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea1R0YPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea1R0oPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea1R04PYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea1R1IPYEe6WCKlCIlSi_g" name="númeroPisos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea144YPYEe6WCKlCIlSi_g" type="_EazcoIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Ea144oPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdgLWIPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ea3HAIPYEe6WCKlCIlSi_g" name="Inmueble">
+          <ownedComment xmi:id="_EdjOpoPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada Inmueble modela un inmueble que posee como atributos un&#xD;
+identificador, un área, una dirección y un precio de venta. Es la clase raíz&#xD;
+de una jerarquía de herencia.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_EdKNEIPYEe6WCKlCIlSi_g" name="identificadorInmobiliario" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdK0IYPYEe6WCKlCIlSi_g" name="área" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdLbMIPYEe6WCKlCIlSi_g" name="dirección" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdLbMoPYEe6WCKlCIlSi_g" name="precioVenta" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdgLWYPYEe6WCKlCIlSi_g" name="Inmueble" specification="_Ea4VIIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdgLWoPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLW4PYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLXIPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgLXYPYEe6WCKlCIlSi_g" type="_Ea3HAIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>this.identificadorInmobiliario = identificadorInmobiliario;&#xD;
+		this.área = área;&#xD;
+		this.dirección = dirección;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdgyYIPYEe6WCKlCIlSi_g" name="calcularPrecioVenta" specification="_Ea5jQIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdgyYYPYEe6WCKlCIlSi_g" name="valorArea">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgyYoPYEe6WCKlCIlSi_g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>precioVenta = área * valorArea;&#xD;
+		return precioVenta;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdgyY4PYEe6WCKlCIlSi_g" name="imprimir" specification="_Ea6KUYPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>System.out.println(&quot;Identificador inmobiliario = &quot; + identificadorInmobiliario);&#xD;
+		System.out.println(&quot;Area = &quot; + área);&#xD;
+		System.out.println(&quot;Dirección = &quot; + dirección);&#xD;
+		System.out.println(&quot;Precio de venta = $&quot; + precioVenta);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Ea4VIIPYEe6WCKlCIlSi_g" name="Inmueble" visibility="package" method="_EdgLWYPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_Ea48MIPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ea48MYPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Ea4VIYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea4VIoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea4VI4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea48MoPYEe6WCKlCIlSi_g" type="_Ea3HAIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Ea5jQIPYEe6WCKlCIlSi_g" name="calcularPrecioVenta" visibility="package" method="_EdgyYIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_Ea5jQYPYEe6WCKlCIlSi_g" name="valorArea">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea6KUIPYEe6WCKlCIlSi_g" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Ea6KUYPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdgyY4PYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ea7YcIPYEe6WCKlCIlSi_g" name="InmuebleVivienda">
+          <ownedComment xmi:id="_EdjOp4PYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada InmuebleVivienda modela un inmueble destinado para la&#xD;
+vivienda con atributos como el número de habitaciones y el número de baños&#xD;
+que posee&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ec2EAIPYEe6WCKlCIlSi_g" general="_Ea3HAIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdMpUIPYEe6WCKlCIlSi_g" name="númeroHabitaciones" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdNQYIPYEe6WCKlCIlSi_g" name="númeroBaños" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdgyZIPYEe6WCKlCIlSi_g" name="InmuebleVivienda" specification="_Ea8mkIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdgyZYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgyZoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgyZ4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgyaIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgyaYPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdgyaoPYEe6WCKlCIlSi_g" type="_Ea7YcIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>super(identificadorInmobiliario, área, dirección); /*&#xD;
+															 * Invoca al constructor de la clase padre&#xD;
+															 */&#xD;
+		this.númeroHabitaciones = númeroHabitaciones;&#xD;
+		this.númeroBaños = númeroBaños;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdhZcIPYEe6WCKlCIlSi_g" name="imprimir" specification="_Ea-bwIPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println(&quot;Número de habitaciones = &quot; + númeroHabitaciones);&#xD;
+		System.out.println(&quot;Número de baños = &quot; + númeroBaños);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Ea8mkIPYEe6WCKlCIlSi_g" name="InmuebleVivienda" method="_EdgyZIPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_Ea90sIPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ea90sYPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Ea8mkYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea8mkoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea8mk4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea8mlIPYEe6WCKlCIlSi_g" name="númeroHabitaciones">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea8mlYPYEe6WCKlCIlSi_g" name="númeroBaños">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ea90soPYEe6WCKlCIlSi_g" type="_Ea7YcIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Ea-bwIPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdhZcIPYEe6WCKlCIlSi_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ea_p4IPYEe6WCKlCIlSi_g" name="Local">
+          <ownedComment xmi:id="_msMMwIPZEe6WCKlCIlSi_g">
+            <body>Esta clase denominada Local modela un tipo específico de inmueble que no está&#xD;
+destinado para la vivienda que tiene como atributos un tipo que especifica si&#xD;
+es un local interno o que da a la calle.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ec5HUIPYEe6WCKlCIlSi_g" general="_Ea3HAIPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdN3cIPYEe6WCKlCIlSi_g" name="tipoLocal" visibility="protected" type="_EbBfEIPYEe6WCKlCIlSi_g"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdhZcYPYEe6WCKlCIlSi_g" name="Local" specification="_Ec3SIIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdhZcoPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdhZc4PYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdhZdIPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdhZdYPYEe6WCKlCIlSi_g" name="tipoLocal" type="_EbBfEIPYEe6WCKlCIlSi_g"/>
+            <ownedParameter xmi:id="_EdhZdoPYEe6WCKlCIlSi_g" type="_Ea_p4IPYEe6WCKlCIlSi_g" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección);&#xD;
+		this.tipoLocal = tipoLocal;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdhZd4PYEe6WCKlCIlSi_g" name="imprimir" specification="_EbFwgIPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println(&quot;Tipo de local = &quot; + tipoLocal);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EbFwgIPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdhZd4PYEe6WCKlCIlSi_g"/>
+          <ownedOperation xmi:id="_Ec3SIIPYEe6WCKlCIlSi_g" name="Local" method="_EdhZcYPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_Ec4gQIPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ec4gQYPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Ec3SIYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec3SIoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec3SI4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec35MIPYEe6WCKlCIlSi_g" name="tipoLocal" type="_EbBfEIPYEe6WCKlCIlSi_g"/>
+            <ownedParameter xmi:id="_Ec4gQoPYEe6WCKlCIlSi_g" type="_Ea_p4IPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+          <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_EbBfEIPYEe6WCKlCIlSi_g" name="tipo" visibility="package">
+            <ownedLiteral xmi:id="_EbD7UIPYEe6WCKlCIlSi_g" name="INTERNO"/>
+            <ownedLiteral xmi:id="_EbEiYIPYEe6WCKlCIlSi_g" name="CALLE"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EbIMwIPYEe6WCKlCIlSi_g" name="LocalComercial">
+          <ownedComment xmi:id="_Edj1sYPYEe6WCKlCIlSi_g">
+            <body>Esta clase denominada LocalComercial modela un tipo específico de Local&#xD;
+destinado para un uso comercial con atributos como el valor por área y el&#xD;
+centro comercial al cual pertenece.&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <generalization xmi:id="_Ec5uYIPYEe6WCKlCIlSi_g" general="_Ea_p4IPYEe6WCKlCIlSi_g"/>
+          <ownedAttribute xmi:id="_EdOegIPYEe6WCKlCIlSi_g" name="valorArea" visibility="protected" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_EdOegYPYEe6WCKlCIlSi_g" value="3000000"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_EdPFkIPYEe6WCKlCIlSi_g" name="centroComercial" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdiAgIPYEe6WCKlCIlSi_g" name="LocalComercial" specification="_Ec9_0YPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdiAgYPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdiAgoPYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdiAg4PYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdiAhIPYEe6WCKlCIlSi_g" name="tipoLocal" type="_Ec9YwIPYEe6WCKlCIlSi_g"/>
+            <ownedParameter xmi:id="_EdiAhYPYEe6WCKlCIlSi_g" name="centroComercial">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_EdiAhoPYEe6WCKlCIlSi_g" type="_EbIMwIPYEe6WCKlCIlSi_g" direction="return"/>
+            <language>java</language>
+            <body>// Invoca al constructor de la clase padre&#xD;
+		super(identificadorInmobiliario, área, dirección, tipoLocal);&#xD;
+		this.centroComercial = centroComercial;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdiAh4PYEe6WCKlCIlSi_g" name="imprimir" specification="_EbKB8IPYEe6WCKlCIlSi_g">
+            <language>java</language>
+            <body>super.imprimir(); // Invoca al método imprimir de la clase padre&#xD;
+		System.out.println(&quot;Centro comercial = &quot; + centroComercial);&#xD;
+		System.out.println();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EbKB8IPYEe6WCKlCIlSi_g" name="imprimir" visibility="package" method="_EdiAh4PYEe6WCKlCIlSi_g"/>
+          <ownedOperation xmi:id="_Ec9_0YPYEe6WCKlCIlSi_g" name="LocalComercial" method="_EdiAgIPYEe6WCKlCIlSi_g">
+            <eAnnotations xmi:id="_Ec-m44PYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ec-m5IPYEe6WCKlCIlSi_g" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Ec9_0oPYEe6WCKlCIlSi_g" name="identificadorInmobiliario">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec9_04PYEe6WCKlCIlSi_g" name="área">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec-m4IPYEe6WCKlCIlSi_g" name="dirección">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec-m4YPYEe6WCKlCIlSi_g" name="tipoLocal" type="_Ec9YwIPYEe6WCKlCIlSi_g"/>
+            <ownedParameter xmi:id="_Ec-m4oPYEe6WCKlCIlSi_g" name="centroComercial">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Ec-m5YPYEe6WCKlCIlSi_g" type="_EbIMwIPYEe6WCKlCIlSi_g" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EbL3IIPYEe6WCKlCIlSi_g" name="MainInmuebles">
+          <ownedComment xmi:id="_Edj1soPYEe6WCKlCIlSi_g">
+            <body>Esta clase prueba diferentes inmuebles, se calcula su precio de acuerdo al&#xD;
+área y se muestran sus datos en pantalla&#xD;
+&#xD;
+@version 1.2/2020</body>
+          </ownedComment>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EdiAiIPYEe6WCKlCIlSi_g" name="main" specification="_EbMeMIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EdiAiYPYEe6WCKlCIlSi_g" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdiAioPYEe6WCKlCIlSi_g" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>ApartamentoFamiliar apto1 = new ApartamentoFamiliar(103067, 120, &quot;Avenida Santander 45-45&quot;, 3, 2, 200000);&#xD;
+		System.out.println(&quot;Datos apartamento&quot;);&#xD;
+		apto1.calcularPrecioVenta(apto1.valorArea);&#xD;
+		apto1.imprimir();&#xD;
+		System.out.println(&quot;Datos apartamento&quot;);&#xD;
+		Apartaestudio aptestudio1 = new Apartaestudio(12354, 50, &quot;Avenida Caracas 30-15&quot;, 1, 1);&#xD;
+		aptestudio1.calcularPrecioVenta(aptestudio1.valorArea);&#xD;
+		aptestudio1.imprimir();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_EbMeMIPYEe6WCKlCIlSi_g" name="main" isStatic="true" method="_EdiAiIPYEe6WCKlCIlSi_g">
+            <ownedParameter xmi:id="_EbMeMYPYEe6WCKlCIlSi_g" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EbNFQYPYEe6WCKlCIlSi_g" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ec9YwIPYEe6WCKlCIlSi_g" name="tipo"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_EZz-IIPYEe6WCKlCIlSi_g">
+      <eAnnotations xmi:id="_EZ4PkIPYEe6WCKlCIlSi_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EbCtMIPYEe6WCKlCIlSi_g" base_Element="_EbBfEIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EbNFQIPYEe6WCKlCIlSi_g" base_Element="_EbMeMIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:Array xmi:id="_EbNsUIPYEe6WCKlCIlSi_g" base_Element="_EbMeMYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:Reference xmi:id="_Ec9_0IPYEe6WCKlCIlSi_g" base_Element="_Ec9YwIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdCRQIPYEe6WCKlCIlSi_g" base_Element="_EdBDIIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdDfYIPYEe6WCKlCIlSi_g" base_Element="_EdC4UIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdEGcIPYEe6WCKlCIlSi_g" base_Element="_EdDfYYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdEtgIPYEe6WCKlCIlSi_g" base_Element="_EdEGcYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdFUkYPYEe6WCKlCIlSi_g" base_Element="_EdEtgYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdF7oYPYEe6WCKlCIlSi_g" base_Element="_EdF7oIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdGisIPYEe6WCKlCIlSi_g" base_Element="_EdF7ooPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdHJwIPYEe6WCKlCIlSi_g" base_Element="_EdGisYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdHw0IPYEe6WCKlCIlSi_g" base_Element="_EdHJwYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdIX4YPYEe6WCKlCIlSi_g" base_Element="_EdHw0YPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdI-8IPYEe6WCKlCIlSi_g" base_Element="_EdIX4oPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdI-8oPYEe6WCKlCIlSi_g" base_Element="_EdI-8YPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdK0IIPYEe6WCKlCIlSi_g" base_Element="_EdKNEIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdK0IoPYEe6WCKlCIlSi_g" base_Element="_EdK0IYPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdLbMYPYEe6WCKlCIlSi_g" base_Element="_EdLbMIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdMCQIPYEe6WCKlCIlSi_g" base_Element="_EdLbMoPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdMpUYPYEe6WCKlCIlSi_g" base_Element="_EdMpUIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdNQYYPYEe6WCKlCIlSi_g" base_Element="_EdNQYIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdN3cYPYEe6WCKlCIlSi_g" base_Element="_EdN3cIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdOegoPYEe6WCKlCIlSi_g" base_Element="_EdOegIPYEe6WCKlCIlSi_g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EdPFkYPYEe6WCKlCIlSi_g" base_Element="_EdPFkIPYEe6WCKlCIlSi_g"/>
+</xmi:XMI>
