@@ -31,6 +31,6 @@ public class PentagonoRegular extends FiguraGeometrica {
 
 	private double apotema () {
 		
-		return longitudLado/(2*Math.tan((1/5)*Math.PI));
+		return longitudLado/(2*Math.tan((1.0/5)*Math.PI));
 	}
 }
