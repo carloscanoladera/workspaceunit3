@@ -2,6 +2,7 @@ package ejemplos.ejemplopersona;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Objects;
 
 
 
@@ -81,6 +82,26 @@ public class Persona {
 		return  anoActual -anoNacimiento;		
 		
 		
+	}
+	
+	
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(anoNacimiento, apellidos, id, nombre);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Persona other = (Persona) obj;
+		return anoNacimiento == other.anoNacimiento && Objects.equals(apellidos, other.apellidos) && id == other.id
+				&& Objects.equals(nombre, other.nombre);
 	}
 
 	@Override

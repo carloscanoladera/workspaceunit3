@@ -1,4 +1,4 @@
-package ejercicios.declases.ejericicio29;
+package ejercicios.declases.ejercicio29;
 
 public abstract class Numerica {
 	
