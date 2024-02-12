@@ -8,6 +8,9 @@ public class AppFiguras {
 
 		Circulo cir = new Circulo(10);
 		Circulo cir2;
+		
+
+		
 
 		FiguraGeometrica varSuperCirculo = new Circulo(15);
 		FiguraGeometrica varSuperRectangulo = new Rectangulo(5, 10);

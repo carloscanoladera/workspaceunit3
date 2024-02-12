@@ -1,6 +1,6 @@
-package ejercicios.ingles.exercise4;
+package ejercicios.ingles.exercice44;
 
-public class Employee  {
+public class Employee implements Comparable<Employee> {
 
 	private int id;
 	private String firstName;
@@ -78,6 +78,14 @@ public class Employee  {
 	public String toString() {
 		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", salary=" + salary
 				+ "]";
+	}
+
+	@Override
+	public int compareTo(Employee o) {
+		// TODO Auto-generated method stub
+				
+		
+		return this.salary>o.getSalary()?1:(this.salary==o.getSalary()?0:-1) ;
 	}
 
 }
