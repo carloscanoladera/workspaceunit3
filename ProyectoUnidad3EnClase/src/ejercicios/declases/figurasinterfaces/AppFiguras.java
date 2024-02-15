@@ -3,7 +3,7 @@ package ejercicios.declases.figurasinterfaces;
 public class AppFiguras {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		IFigura[] arrayFiguras = new IFigura[5];
 
 		Circulo cir = new Circulo(10);

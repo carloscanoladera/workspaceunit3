@@ -19,13 +19,13 @@ public class PentagonoRegular extends FiguraGeometrica {
 
 	@Override
 	public double calcularArea() {
-		// TODO Auto-generated method stub
+		
 		return longitudLado*apotema()*5/2;
 	}
 
 	@Override
 	public double calcularPerimetro() {
-		// TODO Auto-generated method stub
+b
 		return longitudLado*5;
 	}
 
