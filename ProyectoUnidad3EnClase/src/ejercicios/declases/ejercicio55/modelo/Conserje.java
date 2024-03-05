@@ -3,8 +3,7 @@ package ejercicios.declases.ejercicio55.modelo;
 public class Conserje extends EmpleadoEducacion{
 
 	
-	public Conserje(String nombre, String apellidos, String telefono, String direccion, double sueldoBruto, double irpf,
-			EnumCategoria categoria) {
+	public Conserje(String nombre, String apellidos, String telefono, String direccion, double sueldoBruto, double irpf) {
 
 		super(nombre, apellidos, telefono, direccion, sueldoBruto, irpf);
 
